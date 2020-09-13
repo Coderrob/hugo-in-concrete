@@ -1,0 +1,12 @@
+<header class="container header">
+    <h1 class="title">{{ .Site.Title }}</h1>
+    <h3 class="subtitle">A simple blog with a concrete base (theme).</h3>
+    <nav class="menu nav justify-content-center">
+        {{ range .Site.Menus.main }}
+        <a class="button" href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+        </a> {{ end }}
+    </nav>
+    <hr />
+</header>

@@ -1,0 +1,46 @@
+.header .title {
+    font-size: 6.4rem;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+.header .menu {
+    margin: 5rem 0;
+}
+.leading-title {
+    text-align: right;
+    font-weight: 600;
+    margin: 5rem 0;
+}
+
+.post {
+    margin: 5rem 0;
+}
+
+.meta {
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.page-nav {
+    display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    align-items: center;
+}
+
+.page-nav a.button.prev {
+    margin-right: auto;
+}
+
+.page-nav a.button.next {
+    margin-left: auto;
+}
+
+footer {
+    text-align: right;
+    font-size: 10pt;
+}

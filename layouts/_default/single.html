@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="container">
+    <header>
+        <h2 class="leading-title">{{ .Title }}</h2>
+        <hr />
+    </header>
+    <nav class="page-nav">
+        {{with .Prev}}
+        <a class="button prev" href="{{.Permalink}}">
+            Previous
+        </a>
+        {{end}}
+        {{with .Next}}
+        <a class="button next" href="{{.Permalink}}">
+            Next
+        </a>
+        {{end}}
+    </nav>
+    <p class="meta">
+        <span>{{ .PublishDate.Format "Mon, 02 Jan 2006" | safeHTML }}</span>
+    </p>
+    {{ .Content }}
+</section>
+{{ end }}
