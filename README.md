@@ -4,6 +4,8 @@ _Currently a Work-in-Progress_
 
 This page tells you how to get started with the Concrete theme.
 
+<a href="https://www.buymeacoffee.com/coderrob" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Setting up a new site
 
 To prepare your new site environment just a few steps are required:
